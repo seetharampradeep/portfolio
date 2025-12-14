@@ -2,7 +2,7 @@ import '../Styles/Navbar.scss';
 
 const Navbar = () => (
 <nav className="nav navbar navbar-expand-lg navbar-light sticky-top text-uppercase">
-  <div className='logo'>
+  <div className='logo ps-5'>
     <a href="#about">PORTIFOLIO</a>
   </div>
   <div className='d-flex gap-0 gap-4 justify-content-center w-100 py-3'>
