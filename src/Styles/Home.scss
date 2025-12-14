@@ -1,0 +1,65 @@
+.home-section {
+  background-color: #7b8491; // grey-blue background
+  overflow: hidden;
+}
+
+.home-content {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.intro-text {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.name-text {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: 6px;
+  line-height: 1.1;
+}
+
+.role-text {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.highlight {
+  color: #1fd35a; // green accent
+}
+
+.dot {
+  color: #1fd35a;
+}
+
+.home-image {
+  height: 100vh;
+
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .home-image {
+    height: auto;
+  }
+
+  .hero-img {
+    height: auto;
+  }
+
+  .intro-text {
+    font-size: 3rem;
+  }
+
+  .name-text {
+    font-size: 3.5rem;
+  }
+}

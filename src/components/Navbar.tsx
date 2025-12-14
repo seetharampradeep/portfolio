@@ -1,8 +1,15 @@
+import '../Styles/Navbar.scss';
 
 const Navbar = () => (
-<nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
-  <div className="container">
-    <span className="navbar-brand fw-bold text-primary">Portfolio</span>
+<nav className="nav navbar navbar-expand-lg navbar-light sticky-top text-uppercase">
+  <div className='logo'>
+    <a href="#about">PORTIFOLIO</a>
+  </div>
+  <div className='d-flex gap-0 gap-4 justify-content-center w-100 py-3'>
+    <a href="#about">HOME</a>
+    <a href="#skills">EXPERIENCE</a>
+    <a href="#projects">PORTIFOLIO</a>
+    <a href="#contact">Contact</a>
   </div>
 </nav>
 );

@@ -1,0 +1,16 @@
+.nav{
+    background-color: #343c51;
+    a{
+        text-decoration: none;
+        color: #939dab;
+        font: normal normal normal small din-next-w01-light, sans-serif;
+
+        :active{
+            color: #5fcf8d;
+        }
+    }
+
+    a:hover{
+        color: #5fcf8d;
+    }
+}
